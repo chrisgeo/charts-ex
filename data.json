@@ -1,0 +1,535 @@
+Loader.loadData({
+    "curr_view": "VIEW_ID_DEFAULT", 
+    "metadata": {
+        "default_chart_type": "hbar", 
+        "page": 1, 
+        "paginate_on": false, 
+        "questions": {
+            "q1": {}, 
+            "q2": {}
+        }
+    }, 
+    "stats": {}, 
+    "struct": {
+        "questions": {
+            "q1": {
+                "heading": "Are you alive?", 
+                "id": "q1", 
+                "structure": {
+                    "cols": [], 
+                    "rows": [
+                        {
+                            "id": "opt1", 
+                            "text": "Yes"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "single_choice", 
+                    "subtype": "horiz"
+                }
+            }, 
+            "q6": {
+                "heading": "What is your favorite pizza?", 
+                "id": "q4", 
+                "structure": {
+                    "cols": [], 
+                    "rows": [
+                        {
+                            "id": "opt7", 
+                            "text": "Pepperoni"
+                        }, 
+                        {
+                            "id": "opt8", 
+                            "text": "Cheese"
+                        }, 
+                        {
+                            "id": "opt9", 
+                            "text": "Mushroom"
+                        }, 
+                        {
+                            "id": "opt10", 
+                            "text": "Veggie"
+                        }, 
+                        {
+                            "id": "opt11", 
+                            "text": "Everything"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "single_choice", 
+                    "subtype": "vert"
+                }
+            },
+            "q2": {
+                "heading": "Are you human?", 
+                "id": "q2", 
+                "structure": {
+                    "cols": [], 
+                    "rows": [
+                        {
+                            "id": "opt2", 
+                            "text": "Yes"
+                        }, 
+                        {
+                            "id": "opt3", 
+                            "text": "No"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "single_choice", 
+                    "subtype": "horiz"
+                }
+            }, 
+            "q3": {
+                "heading": "What is your favorite ice cream?", 
+                "id": "q3", 
+                "structure": {
+                    "cols": [], 
+                    "rows": [
+                        {
+                            "id": "opt4", 
+                            "text": "Chocolate"
+                        }, 
+                        {
+                            "id": "opt5", 
+                            "text": "Vanilla"
+                        }, 
+                        {
+                            "id": "opt6", 
+                            "text": "Strawberry"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "single_choice", 
+                    "subtype": "horiz"
+                }
+            },
+
+            "q4": {
+                "heading": "What is your favorite pizza?", 
+                "id": "q4", 
+                "structure": {
+                    "cols": [], 
+                    "rows": [
+                        {
+                            "id": "opt7", 
+                            "text": "Pepperoni"
+                        }, 
+                        {
+                            "id": "opt8", 
+                            "text": "Cheese"
+                        }, 
+                        {
+                            "id": "opt9", 
+                            "text": "Mushroom"
+                        }, 
+                        {
+                            "id": "opt10", 
+                            "text": "Veggie"
+                        }, 
+                        {
+                            "id": "opt11", 
+                            "text": "Everything"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "single_choice", 
+                    "subtype": "horiz"
+                }
+            }, 
+            "q5": {
+                "id": "q5", 
+                "structure": {
+                    "cols": [
+                        {
+                            "id": "rainbows", 
+                            "text": "rainbows"
+                        }, 
+                        {
+                            "id": "meh", 
+                            "text": "meh"
+                        }, 
+                        {
+                            "id": "shibby", 
+                            "text": "shibby"
+                        }, 
+                        {
+                            "id": "good", 
+                            "text": "good"
+                        }, 
+                        {
+                            "id": "great", 
+                            "text": "great"
+                        }, 
+                        {
+                            "id": "excellent", 
+                            "text": "excellent"
+                        }
+                    ], 
+                    "rows": [
+                        {
+                            "id": "optrock", 
+                            "text": "Rock"
+                        }, 
+                        {
+                            "id": "optpop", 
+                            "text": "Pop"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "matrix",
+                    "subtype": "simple"
+                }
+            },
+            "q7": {
+                "id": "q5", 
+                "structure": {
+                    "cols": [
+                        {
+                            "id": "rainbows", 
+                            "text": "rainbows"
+                        }, 
+                        {
+                            "id": "meh", 
+                            "text": "meh"
+                        }, 
+                        {
+                            "id": "shibby", 
+                            "text": "shibby"
+                        }, 
+                        {
+                            "id": "good", 
+                            "text": "good"
+                        }, 
+                        {
+                            "id": "great", 
+                            "text": "great"
+                        }, 
+                        {
+                            "id": "excellent", 
+                            "text": "excellent"
+                        }
+                    ], 
+                    "rows": [
+                        {
+                            "id": "optrock", 
+                            "text": "Rock"
+                        }, 
+                        {
+                            "id": "optpop", 
+                            "text": "Pop"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "matrix",
+                    "subtype": "vert"
+                }
+            },
+            "q8": {
+                "heading": "What is your favorite ice cream?", 
+                "id": "q8", 
+                "structure": {
+                    "cols": [], 
+                    "rows": [
+                        {
+                            "id": "opt4", 
+                            "text": "Chocolate"
+                        }, 
+                        {
+                            "id": "opt5", 
+                            "text": "Vanilla"
+                        }, 
+                        {
+                            "id": "opt6", 
+                            "text": "Strawberry"
+                        }
+                    ]
+                }, 
+                "type": {
+                    "family": "single_choice", 
+                    "subtype": "pie"
+                }
+            }
+        }, 
+        "section_ids": [
+            "sect_0"
+        ], 
+        "sections": {
+            "sect_0": {
+                "heading": "About You", 
+                "id": "sect_0", 
+                "question_ids": [
+                    "q1", 
+                    "q2", 
+                    "q3", 
+                    "q4", 
+                    "q5",
+                    "q6",
+                    "q7"
+                ], 
+                "subheading": "Page 1 Description"
+            }
+        }, 
+        "survey_data": {
+            "category": "personal", 
+            "question_count": 5, 
+            "title": "Default Survey"
+        }
+    }, 
+    "summary": {
+        "q1": {
+            "answered": 33, 
+            "skipped": 204, 
+            "summary": {
+                "options": {
+                    "opt1": {
+                        "count": 33
+                    }
+                }
+            }, 
+            "type": "simple"
+        }, 
+        "q2": {
+            "answered": 70, 
+            "skipped": 167, 
+            "summary": {
+                "options": {
+                    "opt2": {
+                        "count": 50
+                    }, 
+                    "opt3": {
+                        "count": 20
+                    }
+                }
+            }, 
+            "type": "simple"
+        },
+        "q6": {
+            "answered": 220, 
+            "skipped": 17, 
+            "summary": {
+                "options": {
+                    "opt10": {
+                        "count": 70
+                    }, 
+                    "opt11": {
+                        "count": 60
+                    }, 
+                    "opt7": {
+                        "count": 50
+                    }, 
+                    "opt8": {
+                        "count": 20
+                    }, 
+                    "opt9": {
+                        "count": 20
+                    }
+                }
+            }, 
+            "type": "simple"
+        }, 
+        "q3": {
+            "answered": 95, 
+            "skipped": 142, 
+            "summary": {
+                "options": {
+                    "opt4": {
+                        "count": 33
+                    }, 
+                    "opt5": {
+                        "count": 22
+                    }, 
+                    "opt6": {
+                        "count": 40
+                    }
+                }
+            }, 
+            "type": "simple"
+        }, 
+        "q8": {
+            "answered": 95, 
+            "skipped": 142, 
+            "summary": {
+                "options": {
+                    "opt4": {
+                        "count": 33
+                    }, 
+                    "opt5": {
+                        "count": 22
+                    }, 
+                    "opt6": {
+                        "count": 40
+                    }
+                }
+            }, 
+            "type": "simple"
+        }, 
+        "q4": {
+            "answered": 220, 
+            "skipped": 17, 
+            "summary": {
+                "options": {
+                    "opt10": {
+                        "count": 70
+                    }, 
+                    "opt11": {
+                        "count": 60
+                    }, 
+                    "opt7": {
+                        "count": 50
+                    }, 
+                    "opt8": {
+                        "count": 20
+                    }, 
+                    "opt9": {
+                        "count": 20
+                    }
+                }
+            }, 
+            "type": "simple"
+        }, 
+        "q5": {
+            "answered": 220, 
+            "skipped": 17, 
+            "summary": {
+                "options": {
+                    "optpop": {
+                        "options": {
+                            "excellent": {
+                                "count": 41
+                            }, 
+                            "good": {
+                                "count": 1
+                            }, 
+                            "great": {
+                                "count": 1
+                            }, 
+                            "meh": {
+                                "count": 4
+                            }, 
+                            "rainbows": {
+                                "count": 3
+                            }, 
+                            "shibby": {
+                                "count": 3
+                            }
+                        }, 
+                        "row_max": 41, 
+                        "row_total": 53
+                    }, 
+                    "optrock": {
+                        "options": {
+                            "excellent": {
+                                "count": 6
+                            }, 
+                            "good": {
+                                "count": 1
+                            }, 
+                            "great": {
+                                "count": 3
+                            }, 
+                            "meh": {
+                                "count": 2
+                            }, 
+                            "rainbows": {
+                                "count": 4
+                            }, 
+                            "shibby": {
+                                "count": 7
+                            }
+                        }, 
+                        "row_max": 6, 
+                        "row_total": 23
+                    }
+                }
+            }, 
+            "type": "matrix"
+        },
+         "q7": {
+            "answered": 220, 
+            "skipped": 17, 
+            "summary": {
+                "options": {
+                    "optpop": {
+                        "options": {
+                            "excellent": {
+                                "count": 41
+                            }, 
+                            "good": {
+                                "count": 1
+                            }, 
+                            "great": {
+                                "count": 1
+                            }, 
+                            "meh": {
+                                "count": 4
+                            }, 
+                            "rainbows": {
+                                "count": 3
+                            }, 
+                            "shibby": {
+                                "count": 3
+                            }
+                        }, 
+                        "row_max": 41, 
+                        "row_total": 53
+                    }, 
+                    "optrock": {
+                        "options": {
+                            "excellent": {
+                                "count": 6
+                            }, 
+                            "good": {
+                                "count": 1
+                            }, 
+                            "great": {
+                                "count": 3
+                            }, 
+                            "meh": {
+                                "count": 2
+                            }, 
+                            "rainbows": {
+                                "count": 4
+                            }, 
+                            "shibby": {
+                                "count": 7
+                            }
+                        }, 
+                        "row_max": 6, 
+                        "row_total": 23
+                    }
+                }
+            }, 
+            "type": "matrix"
+        }
+
+    }, 
+    "view_list": [
+        {
+            "is_default": true, 
+            "name": "View A", 
+            "shared": false, 
+            "survey_id": "FAKE1", 
+            "view_id": "VIEW_ID_DEFAULT"
+        }, 
+        {
+            "name": "View A", 
+            "shared": false, 
+            "survey_id": "FAKE1", 
+            "view_id": "VIEW_ID_A"
+        }, 
+        {
+            "name": "View B", 
+            "shared": false, 
+            "survey_id": "FAKE1", 
+            "view_id": "VIEW_ID_B"
+        }
+    ]
+});
