@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Charts Revamp Using YUI</title>
+    <style>
+        .chart-container {
+            height: 200px;
+            width: 600px;
+        }
+        .hidden {
+            visibility: none;
+            position: absolute;
+            left: -10000px;
+        }
+    </style>
+    <script src="../yui/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+    <div class="container"></div>
+    <div class="chart-container hidden"></div>
+</body>
+<script type="text/javascript" src="./loader.js"></script>
+<script type="text/javascript" src="data.json"></script>
+<script type="text/javascript" src="./charts.js"></script>
+</html>
